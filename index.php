@@ -215,9 +215,9 @@ $seo_jsonld_output = function ($data) {
                         </span>
                         <h1 class="hero-title">Create Professional<br><span class="hero-accent">QR Codes</span> in Seconds</h1>
                         <p class="hero-desc">
-                            Generate fully customized QR codes for any purpose — websites, business cards,
-                            WiFi networks, videos, and more. Style them with colors, shapes, frames, and
-                            logos, then download your finished code instantly. No account required.
+                            Everything a QR code can do, fully under your control. Generate codes for
+                            websites, business cards, WiFi, videos, and more, then make them yours with
+                            custom colors, shapes, frames, and logos. Download instantly. No account needed.
                         </p>
                         <div class="hero-features">
                             <div class="hero-feature">

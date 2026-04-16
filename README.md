@@ -1,6 +1,6 @@
 # PandaQR
 
-Professional QR code generator — free online tool.
+Professional QR code generator online tool.
 
 **Live demo:** [https://pandaqr.me/](https://pandaqr.me/)
 

@@ -1,0 +1,22 @@
+DirectoryIndex index.php index.html
+
+# PHP upload limits (if using .htaccess PHP overrides)
+php_value upload_max_filesize 10M
+php_value post_max_size 12M
+php_value max_execution_time 30
+
+# Block direct access to uploads directory source listing
+Options -Indexes
+
+# Security headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Prevent direct PHP execution in uploads folder
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^assets/uploads/.*\.php$ - [F,L]
+</IfModule>
